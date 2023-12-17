@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--
+  <html>
+  <head>
+  </head>
+
+  <body>
+    <div style="display: grid;grid-template-columns: 200px 75px;margin-bottom: 35px;">
+    <div style="background-color: lightblue;">200px</div>
+    <div style="background-color: lightpink;">75px</div>
+    </div>
+
+    <div style="display: grid;grid-template-columns: 50px 1fr 75px; margin-bottom: 35px;">
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;column-gap: 20px;row-gap: 10px;">
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+    </div>
+
+  </body>
+</html> 
+-->
+
+<html>
+  <head>
+    <style>
+    p{
+      font-family: Arial;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+    .Bigg-div{
+      box-shadow:0px 0px 6px rgba(0,0,0,0.3);
+    }
+    .profile-picture{
+      margin-top: 10px;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+    .acc-name{
+      margin-bottom: 4px;
+      font-weight: bold;
+      font-size:16px ;
+      color: black;
+      margin-left: 10px;
+    }
+    .nb-friends{
+      color: rgb(96,96,96);
+      margin-bottom: 10px;
+      font-size: 10px;
+      margin-left: 0px;
+      display: inline-block;
+    }
+    .addfriend-button{
+      background-color: rgb(24, 119, 242);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 12px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      display: block;
+    }
+    .profile-friend{
+      display: inline-block;
+      width: 17px;
+      object-fit: cover;
+      border-radius: 50px;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+    .div-mutual-friends{
+      display: inline-block;
+    }
+    </style>
+  </head>
+  <body>
+    <div style="display: grid;grid-template-columns: 220px 220px 220px;column-gap: 10px;align-items: center;">
+    <div class="Bigg-div">
+      <div>
+        <img class="profile-picture" src="../thumbnails/cat.jpeg"> 
+      </div>
+      <div>
+        <p class="acc-name">Oliver</p>
+      </div>
+      <div class="div-mutual-friends">
+        <img class="profile-friend" src="../thumbnails/channellex10-1.jpg">
+        <p class="nb-friends">2 mutual friends</p>
+      </div>
+      <div>
+        <button class="addfriend-button">Add friend</button>
+      </div>
+      
+    </div>
+
+    <div class="Bigg-div">
+      <div>
+        <img class="profile-picture" src="../thumbnails/dog.jpg"> 
+      </div>
+      <div>
+        <p class="acc-name">Mimi</p>
+      </div>
+      <div class="div-mutual-friends">
+        <img class="profile-friend" src="../thumbnails/channellex10-1.jpg">
+        <p class="nb-friends">3 mutual friends</p>
+      </div>
+      <div>
+        <button class="addfriend-button">Add friend</button>
+      </div>
+      
+    </div>
+
+    <div class="Bigg-div">
+      <div>
+        <img class="profile-picture" src="../thumbnails/owl.jpg""> 
+      </div>
+      <div>
+        <p class="acc-name">Rex</p>
+      </div>
+      <div class="div-mutual-friends">
+        <img class="profile-friend" src="../thumbnails/channellex10-1.jpg">
+        <p class="nb-friends">4 mutual friends</p>
+      </div>
+      <div>
+        <button class="addfriend-button">Add friend</button>
+      </div>
+      
+    </div>
+    </div>
+  </body>
+</html>

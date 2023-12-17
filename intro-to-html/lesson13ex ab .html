@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+  .big-flexbox{
+    display: flex;
+    margin-bottom: 25px;
+    flex-direction: row;
+    height: 50px;
+  }
+  .first{
+    background-color: lightpink;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .item1{
+    background-color: black;
+    color: white;
+  }
+  .second{
+    background-color: lightblue;
+    width: 200px;
+    height: 40px;
+  }
+  .first2{
+    background-color: lightpink;
+    width: 100px;
+  }
+  .second2{
+    background-color: lightblue;
+    width: 200px;
+  }
+
+  .row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .row2-item{
+    background-color: black;
+    color: white;
+  }
+    </style>
+  </head>
+  <body>
+    <div class="big-flexbox">
+      <div class="first">
+        <div class="item1">item1</div>
+      </div>
+      <div class="second"></div>
+    </div>
+
+    <div class="big-flexbox">
+      <div class="first2"></div>
+      <div class="second2">
+        <div class="row1">row1</div>
+        <div class="row2">
+          <div class="row2-item">row2</div>
+          <div class="row2-item">row2</div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
